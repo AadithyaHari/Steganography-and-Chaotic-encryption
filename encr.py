@@ -8,7 +8,7 @@ Created on Sat Oct 20 10:38:50 2020
 
 from PIL import Image
 
-im = Image.open('ims.png')
+im = Image.open(r"C:\Users\admin\Desktop\Desktop\Steganography\newencodedimage.jpeg")
 px = im.load()
 w, h = im.size
 

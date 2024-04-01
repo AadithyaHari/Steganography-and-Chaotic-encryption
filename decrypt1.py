@@ -4,9 +4,10 @@ Created on Sat Oct 24 10:43:15 2020
 
 @author: C01
 """
-import PIL as pl
+from PIL import Image
 
-im = pl.Image.open('encrypted1.png')
+
+im = Image.open(r"C:\Users\admin\Desktop\Desktop\Steganography\encrypted.png")
 px = im.load()
 w, h = im.size
 
